@@ -170,13 +170,22 @@ button:hover {
 @media (max-width: 900px) {
   .product {
     grid-template-columns: 1fr;
+    grid-template-areas:
+      "image"
+      "info";
     padding: 24px 16px;
   }
 
   .image-box {
+    grid-area: image;
     height: 60vh;
-    max-height: none;
     border-radius: 16px;
   }
+
+  .info {
+    grid-area: info;
+    margin-top: 20px;
+  }
 }
+
 
