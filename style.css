@@ -86,6 +86,7 @@ body {
 .image-box {
   width: 50vw;
   height: 50vw;
+  max-width: 800px;
   max-height: 800px;
   background: #f6f6f6;
   border-radius: 18px;
@@ -185,6 +186,7 @@ button:hover {
     margin-top: 20px;
   }
 }
+
 
 
 
