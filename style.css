@@ -85,7 +85,7 @@ body {
 /* Фото */
 .image-box {
   width: 50vw;
-  height: 40vw;
+  height: 50vw;
   max-height: 800px;
   background: #f6f6f6;
   border-radius: 18px;
@@ -179,3 +179,4 @@ button:hover {
     border-radius: 16px;
   }
 }
+
